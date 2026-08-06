@@ -1,0 +1,62 @@
+{
+  "phase": 3,
+  "scope": "observed window-based lexical association; no cultural interpretation",
+  "parameters": {
+    "window_size": 5,
+    "minimum_context_frequency": 5,
+    "casefold_latin": true,
+    "respect_sentence_boundaries": true,
+    "context_position_policy": "unique token positions within each sentence",
+    "candidate_overlap_policy": "leftmost-longest match"
+  },
+  "corpora": {
+    "chinese": {
+      "sentences": 8176,
+      "sentences_with_candidate": 620,
+      "corpus_tokens_phase3": 124403,
+      "target_occurrences_nonoverlapping": 736,
+      "target_frequency_nonoverlapping": {
+        "红": 387,
+        "血": 282,
+        "血红": 25,
+        "鲜红": 19,
+        "赤": 23
+      },
+      "unique_context_positions": 5792,
+      "unique_collocates": 2381,
+      "eligible_collocates": 142
+    },
+    "english": {
+      "sentences": 8812,
+      "sentences_with_candidate": 446,
+      "corpus_tokens_phase3": 133569,
+      "target_occurrences_nonoverlapping": 503,
+      "target_frequency_nonoverlapping": {
+        "red": 269,
+        "blood": 196,
+        "scarlet": 17,
+        "bloody": 19,
+        "crimson": 2
+      },
+      "unique_context_positions": 3844,
+      "unique_collocates": 1228,
+      "eligible_collocates": 121
+    },
+    "spanish": {
+      "sentences": 9491,
+      "sentences_with_candidate": 465,
+      "corpus_tokens_phase3": 167104,
+      "target_occurrences_nonoverlapping": 533,
+      "target_frequency_nonoverlapping": {
+        "rojo": 169,
+        "sangre": 239,
+        "rojas": 31,
+        "rojos": 31,
+        "roja": 63
+      },
+      "unique_context_positions": 4079,
+      "unique_collocates": 1255,
+      "eligible_collocates": 109
+    }
+  }
+}

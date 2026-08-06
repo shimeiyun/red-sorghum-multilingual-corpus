@@ -1,0 +1,25 @@
+{
+  "chinese": {
+    "start_marker": "卷首语",
+    "end_marker": "Table of Contents",
+    "end_prefix": false,
+    "section_titles": ["第一章 红高粱", "第二章 高粱酒", "第三章 狗道", "第四章 高粱殡", "第五章 奇死"],
+    "subsection_pattern": "^(一|二|三|四|五|六|七|八|九|十|十一)$"
+  },
+  "english": {
+    "start_marker": "With this book I respectfully invoke",
+    "end_marker": "This ebook is copyright material",
+    "end_prefix": true,
+    "section_titles": ["Red Sorghum", "Sorghum Wine", "Dog Ways", "Sorghum Funeral", "Strange Death"],
+    "subsection_pattern": "^(1|2|3|4|5|6|7|8|9|10|11)$"
+  },
+  "spanish": {
+    "start_marker": "Con este libro invoco respetuosamente",
+    "end_marker": "Fin",
+    "end_prefix": false,
+    "section_titles": ["SORGO ROJO", "VINO DE SORGO", "CONDUCTA DE PERROS", "FUNERAL EN EL SORGO", "MUERTE EXTRAÑA"],
+    "subsection_pattern": "^(1|2|3|4|5|6|7|8|9|10|11)$"
+  },
+  "expected_subsection_counts": [9, 11, 9, 9, 10]
+}
+

@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=70"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "red-sorghum-multilingual-corpus"
+version = "0.1.0"
+description = "A staged Chinese-English-Spanish computational corpus study of red-related lexical representation in Red Sorghum."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["jieba==0.42.1", "fastembed==0.8.0", "numpy>=1.26,<3"]
+
+[tool.setuptools.packages.find]
+include = ["src*"]

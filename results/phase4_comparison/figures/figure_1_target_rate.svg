@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="360" viewBox="0 0 820 360" role="img" aria-labelledby="title desc">
+<title id="title">Declared candidate-set rate</title>
+<desc id="desc">Target occurrences per ten thousand lexical tokens in each corpus.</desc>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<style>text{font-family:Arial,"Microsoft YaHei",sans-serif;fill:#20242a}.title{font-size:21px;font-weight:700}.subtitle{font-size:12px;fill:#5b6470}.label{font-size:14px}.value{font-size:13px;font-weight:700}.axis{stroke:#aeb5bd;stroke-width:1}.grid{stroke:#e4e7eb;stroke-width:1}.tick{font-size:11px;fill:#68717c}</style>
+<text x="40" y="42" class="title">Declared candidate-set rate</text>
+<text x="40" y="67" class="subtitle">Non-overlapping occurrences per 10,000 lexical tokens</text>
+<line x1="155.0" y1="92" x2="155.0" y2="318" class="grid"/>
+<text x="155.0" y="338" text-anchor="middle" class="tick">0.0</text>
+<line x1="276.0" y1="92" x2="276.0" y2="318" class="grid"/>
+<text x="276.0" y="338" text-anchor="middle" class="tick">13.3</text>
+<line x1="397.0" y1="92" x2="397.0" y2="318" class="grid"/>
+<text x="397.0" y="338" text-anchor="middle" class="tick">26.5</text>
+<line x1="518.0" y1="92" x2="518.0" y2="318" class="grid"/>
+<text x="518.0" y="338" text-anchor="middle" class="tick">39.8</text>
+<line x1="639.0" y1="92" x2="639.0" y2="318" class="grid"/>
+<text x="639.0" y="338" text-anchor="middle" class="tick">53.0</text>
+<line x1="760.0" y1="92" x2="760.0" y2="318" class="grid"/>
+<text x="760.0" y="338" text-anchor="middle" class="tick">66.3</text>
+<text x="141" y="143" text-anchor="end" class="label">Chinese</text>
+<rect x="155" y="115" width="540.2" height="44" rx="3" fill="#B23A48"/>
+<text x="705.2" y="143" class="value">59.16</text>
+<text x="141" y="215" text-anchor="end" class="label">English</text>
+<rect x="155" y="187" width="343.8" height="44" rx="3" fill="#35618C"/>
+<text x="508.8" y="215" class="value">37.66</text>
+<text x="141" y="287" text-anchor="end" class="label">Spanish</text>
+<rect x="155" y="259" width="291.2" height="44" rx="3" fill="#C98228"/>
+<text x="456.2" y="287" class="value">31.90</text>
+</svg>

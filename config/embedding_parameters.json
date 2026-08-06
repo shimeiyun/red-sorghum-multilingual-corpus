@@ -1,0 +1,11 @@
+{
+  "model_name": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "embedding_dimension": 384,
+  "pooling": "mean pooling as implemented by FastEmbed 0.8.0",
+  "batch_size": 32,
+  "threads": 2,
+  "random_seed": 42,
+  "bootstrap_iterations": 500,
+  "control_matching": "one non-candidate lexical sentence per candidate sentence, greedily matched on normalized character length",
+  "similarity": "cosine similarity on L2-normalized sentence embeddings and normalized centroids"
+}

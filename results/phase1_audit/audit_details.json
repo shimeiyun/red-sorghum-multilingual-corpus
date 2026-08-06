@@ -1,0 +1,117 @@
+{
+  "phase": 1,
+  "scope": "observed corpus evidence only",
+  "corpora": {
+    "chinese": {
+      "language": "chinese",
+      "encoding": "utf-8",
+      "encoding_method": "strict UTF-8 decode",
+      "raw_bytes": 698304,
+      "raw_characters": 236726,
+      "analysis_characters": 236494,
+      "analysis_nonwhitespace_characters": 230707,
+      "analysis_tokens": 123853,
+      "sentences_provisional": 7642,
+      "source_lines": "1-5782",
+      "section_structure": "9/11/9/9/10",
+      "raw_sha256": "020138afd33a97a031687be3901fb6860a5fa05282a441dcff804049aca10bf5",
+      "analysis_sha256": "772c7f0d556c400d11be781496f03866924bdbebdb38f982cb3716d6e92f5485",
+      "scope_validation": {
+        "source_start_line": 1,
+        "source_end_line": 5782,
+        "raw_char_start": 0,
+        "raw_char_end": 236494,
+        "section_count": 5,
+        "subsection_counts": [
+          9,
+          11,
+          9,
+          9,
+          10
+        ],
+        "analysis_sha256": "772c7f0d556c400d11be781496f03866924bdbebdb38f982cb3716d6e92f5485"
+      },
+      "candidate_frequencies": {
+        "红": 431,
+        "血": 307,
+        "鲜红": 19,
+        "赤": 23,
+        "血红": 25
+      }
+    },
+    "english": {
+      "language": "english",
+      "encoding": "utf-8",
+      "encoding_method": "strict UTF-8 decode",
+      "raw_bytes": 774709,
+      "raw_characters": 761011,
+      "analysis_characters": 756660,
+      "analysis_nonwhitespace_characters": 619615,
+      "analysis_tokens": 133569,
+      "sentences_provisional": 9555,
+      "source_lines": "174-6171",
+      "section_structure": "9/11/9/9/10",
+      "raw_sha256": "d357e4b2979442b857e3a571cb37cf0538a97f291f5585fb839710aca7d7caa5",
+      "analysis_sha256": "57df8a7a7215e5ecc0c6a6073635f204a0da96be5042c7d4217315e6373a0afd",
+      "scope_validation": {
+        "source_start_line": 174,
+        "source_end_line": 6171,
+        "raw_char_start": 2197,
+        "raw_char_end": 758857,
+        "section_count": 5,
+        "subsection_counts": [
+          9,
+          11,
+          9,
+          9,
+          10
+        ],
+        "analysis_sha256": "57df8a7a7215e5ecc0c6a6073635f204a0da96be5042c7d4217315e6373a0afd"
+      },
+      "candidate_frequencies": {
+        "red": 269,
+        "blood": 196,
+        "bloody": 19,
+        "crimson": 2,
+        "scarlet": 17
+      }
+    },
+    "spanish": {
+      "language": "spanish",
+      "encoding": "utf-8",
+      "encoding_method": "strict UTF-8 decode",
+      "raw_bytes": 978608,
+      "raw_characters": 950785,
+      "analysis_characters": 948424,
+      "analysis_nonwhitespace_characters": 777370,
+      "analysis_tokens": 167104,
+      "sentences_provisional": 9003,
+      "source_lines": "42-7529",
+      "section_structure": "9/11/9/9/10",
+      "raw_sha256": "f8127a84305feb2d6f5e4b8aadad13a5d67cd5147e7971e5d7392cf8dd958688",
+      "analysis_sha256": "ce5d1b8c70c5d32b96e12b7a19dfa035b1ef2ab8102caa8b602f20948631561d",
+      "scope_validation": {
+        "source_start_line": 42,
+        "source_end_line": 7529,
+        "raw_char_start": 1010,
+        "raw_char_end": 949434,
+        "section_count": 5,
+        "subsection_counts": [
+          9,
+          11,
+          9,
+          9,
+          10
+        ],
+        "analysis_sha256": "ce5d1b8c70c5d32b96e12b7a19dfa035b1ef2ab8102caa8b602f20948631561d"
+      },
+      "candidate_frequencies": {
+        "rojo": 169,
+        "roja": 63,
+        "rojos": 31,
+        "rojas": 31,
+        "sangre": 239
+      }
+    }
+  }
+}

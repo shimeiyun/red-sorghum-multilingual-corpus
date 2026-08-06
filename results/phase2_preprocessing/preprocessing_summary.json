@@ -1,0 +1,48 @@
+{
+  "phase": 2,
+  "scope": "deterministic preprocessing only",
+  "corpora": {
+    "chinese": {
+      "paragraphs": 2766,
+      "sentences": 8176,
+      "sentences_with_candidate": 620,
+      "analysis_nonwhitespace_characters": 230707,
+      "covered_nonwhitespace_characters": 230707,
+      "coverage": 1.0,
+      "median_sentence_length": 25,
+      "maximum_sentence_length": 330,
+      "punctuation_only_records": 5,
+      "candidate_frequencies_preserved": true,
+      "serialized_offsets_verified": true,
+      "output": "data/processed/chinese_sentences.csv"
+    },
+    "english": {
+      "paragraphs": 2855,
+      "sentences": 8812,
+      "sentences_with_candidate": 446,
+      "analysis_nonwhitespace_characters": 619615,
+      "covered_nonwhitespace_characters": 619615,
+      "coverage": 1.0,
+      "median_sentence_length": 73,
+      "maximum_sentence_length": 843,
+      "punctuation_only_records": 5,
+      "candidate_frequencies_preserved": true,
+      "serialized_offsets_verified": true,
+      "output": "data/processed/english_sentences.csv"
+    },
+    "spanish": {
+      "paragraphs": 3612,
+      "sentences": 9491,
+      "sentences_with_candidate": 465,
+      "analysis_nonwhitespace_characters": 777370,
+      "covered_nonwhitespace_characters": 777370,
+      "coverage": 1.0,
+      "median_sentence_length": 82,
+      "maximum_sentence_length": 838,
+      "punctuation_only_records": 23,
+      "candidate_frequencies_preserved": true,
+      "serialized_offsets_verified": true,
+      "output": "data/processed/spanish_sentences.csv"
+    }
+  }
+}

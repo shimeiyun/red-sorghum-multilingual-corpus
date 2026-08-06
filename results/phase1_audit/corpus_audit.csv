@@ -1,0 +1,4 @@
+﻿language,encoding,encoding_method,raw_bytes,raw_characters,analysis_characters,analysis_nonwhitespace_characters,analysis_tokens,sentences_provisional,source_lines,section_structure,raw_sha256,analysis_sha256
+chinese,utf-8,strict UTF-8 decode,698304,236726,236494,230707,123853,7642,1-5782,9/11/9/9/10,020138afd33a97a031687be3901fb6860a5fa05282a441dcff804049aca10bf5,772c7f0d556c400d11be781496f03866924bdbebdb38f982cb3716d6e92f5485
+english,utf-8,strict UTF-8 decode,774709,761011,756660,619615,133569,9555,174-6171,9/11/9/9/10,d357e4b2979442b857e3a571cb37cf0538a97f291f5585fb839710aca7d7caa5,57df8a7a7215e5ecc0c6a6073635f204a0da96be5042c7d4217315e6373a0afd
+spanish,utf-8,strict UTF-8 decode,978608,950785,948424,777370,167104,9003,42-7529,9/11/9/9/10,f8127a84305feb2d6f5e4b8aadad13a5d67cd5147e7971e5d7392cf8dd958688,ce5d1b8c70c5d32b96e12b7a19dfa035b1ef2ab8102caa8b602f20948631561d

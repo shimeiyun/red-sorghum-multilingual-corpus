@@ -1,0 +1,4 @@
+﻿language,corpus_tokens,target_occurrences,target_occurrences_per_10000_tokens,eligible_overrepresented_collocates,normalized_entropy,top10_frequency_share,median_positive_pmi
+chinese,124403,736,59.16256,105,0.767484,0.579192,1.680655
+english,133569,503,37.658439,89,0.807565,0.574121,1.400015
+spanish,167104,533,31.896304,84,0.786354,0.626445,1.315578

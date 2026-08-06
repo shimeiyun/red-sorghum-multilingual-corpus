@@ -1,0 +1,8 @@
+{
+  "window_size": 5,
+  "minimum_context_frequency": 5,
+  "casefold_latin": true,
+  "respect_sentence_boundaries": true,
+  "context_position_policy": "unique token positions within each sentence",
+  "candidate_overlap_policy": "leftmost-longest match"
+}

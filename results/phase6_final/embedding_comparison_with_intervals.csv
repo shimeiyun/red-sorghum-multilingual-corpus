@@ -1,0 +1,4 @@
+﻿language_pair,candidate_cosine,candidate_distance,candidate_ci_low,candidate_ci_high,control_cosine,control_ci_low,control_ci_high,candidate_minus_control,delta_ci_low,delta_ci_high
+chinese-english,0.968909,0.031091,0.956724,0.970075,0.956044,0.941343,0.95786,0.012865,0.003567,0.024878
+chinese-spanish,0.966829,0.033171,0.955923,0.969052,0.949993,0.934903,0.953844,0.016836,0.006588,0.03033
+english-spanish,0.984802,0.015198,0.974713,0.983932,0.972772,0.957759,0.972355,0.01203,0.005106,0.023656

@@ -1,0 +1,82 @@
+{
+  "phase": 5,
+  "scope": "multilingual sentence-embedding evidence with matched non-candidate baseline",
+  "model": {
+    "model_name": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "fastembed_version": "0.8.0",
+    "onnx_repository": "qdrant/paraphrase-multilingual-MiniLM-L12-v2-onnx-Q",
+    "revision": "faf4aa4225822f3bc6376869cb1164e8e3feedd0",
+    "dimension": 384,
+    "pooling": "mean pooling as implemented by FastEmbed 0.8.0",
+    "license": "Apache-2.0"
+  },
+  "parameters": {
+    "model_name": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "embedding_dimension": 384,
+    "pooling": "mean pooling as implemented by FastEmbed 0.8.0",
+    "batch_size": 32,
+    "threads": 2,
+    "random_seed": 42,
+    "bootstrap_iterations": 500,
+    "control_matching": "one non-candidate lexical sentence per candidate sentence, greedily matched on normalized character length",
+    "similarity": "cosine similarity on L2-normalized sentence embeddings and normalized centroids"
+  },
+  "corpora": {
+    "chinese": {
+      "candidate_sentences": 620,
+      "matched_control_sentences": 620,
+      "candidate_median_characters": 38.0,
+      "control_median_characters": 38.0,
+      "embedding_norms_verified": true
+    },
+    "english": {
+      "candidate_sentences": 446,
+      "matched_control_sentences": 446,
+      "candidate_median_characters": 123.0,
+      "control_median_characters": 123.0,
+      "embedding_norms_verified": true
+    },
+    "spanish": {
+      "candidate_sentences": 465,
+      "matched_control_sentences": 465,
+      "candidate_median_characters": 144,
+      "control_median_characters": 144,
+      "embedding_norms_verified": true
+    }
+  },
+  "similarities": [
+    {
+      "language_pair": "chinese-english",
+      "candidate_centroid_cosine": 0.968909,
+      "candidate_semantic_distance": 0.031091,
+      "candidate_bootstrap_ci_low": 0.956724,
+      "candidate_bootstrap_ci_high": 0.970075,
+      "matched_control_centroid_cosine": 0.956044,
+      "candidate_minus_control": 0.012865,
+      "delta_bootstrap_ci_low": 0.003567,
+      "delta_bootstrap_ci_high": 0.024878
+    },
+    {
+      "language_pair": "chinese-spanish",
+      "candidate_centroid_cosine": 0.966829,
+      "candidate_semantic_distance": 0.033171,
+      "candidate_bootstrap_ci_low": 0.955923,
+      "candidate_bootstrap_ci_high": 0.969052,
+      "matched_control_centroid_cosine": 0.949993,
+      "candidate_minus_control": 0.016836,
+      "delta_bootstrap_ci_low": 0.006588,
+      "delta_bootstrap_ci_high": 0.03033
+    },
+    {
+      "language_pair": "english-spanish",
+      "candidate_centroid_cosine": 0.984802,
+      "candidate_semantic_distance": 0.015198,
+      "candidate_bootstrap_ci_low": 0.974713,
+      "candidate_bootstrap_ci_high": 0.983932,
+      "matched_control_centroid_cosine": 0.972772,
+      "candidate_minus_control": 0.01203,
+      "delta_bootstrap_ci_low": 0.005106,
+      "delta_bootstrap_ci_high": 0.023656
+    }
+  ]
+}
