@@ -185,7 +185,7 @@ def main() -> int:
 
     audit = phase1["corpora"]
     target_rates = {row["language"]: float(row["target_occurrences_per_10000_tokens"]) for row in phase4}
-    report = f"""# A Corpus-based and Computational Analysis of Cultural Semantic Shift in Chinese–English–Spanish Translation
+    report = f"""# A Corpus-based and Computational Analysis of Red-related Lexical and Contextual Variation in Chinese–English–Spanish Translation
 
 ## The representation of red in *Red Sorghum*
 
