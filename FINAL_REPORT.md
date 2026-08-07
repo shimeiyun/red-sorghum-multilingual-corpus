@@ -1,4 +1,4 @@
-# A Corpus-based and Computational Analysis of Cultural Semantic Shift in Chinese–English–Spanish Translation
+# A Corpus-based and Computational Analysis of Red-related Lexical and Contextual Variation in Chinese–English–Spanish Translation
 
 ## The representation of red in *Red Sorghum*
 

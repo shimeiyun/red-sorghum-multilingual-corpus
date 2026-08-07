@@ -11,6 +11,6 @@
 - [x] Figures contain accessible titles and descriptions.
 - [x] Final report separates observations, exploratory interpretation, and limitations.
 - [x] Cross-phase verification passes.
-- [ ] Inspect the GitHub preview after upload.
-- [ ] Confirm that no raw or processed text appears in the GitHub file list.
-- [ ] Add a repository description and topic tags.
+- [x] Inspect the GitHub preview after upload.
+- [x] Confirm that no raw or processed text appears in the GitHub file list.
+- [x] Add a repository description and topic tags.

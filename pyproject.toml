@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "red-sorghum-multilingual-corpus"
-version = "0.1.0"
+version = "1.0.0"
 description = "A staged Chinese-English-Spanish computational corpus study of red-related lexical representation in Red Sorghum."
 readme = "README.md"
 requires-python = ">=3.10"
